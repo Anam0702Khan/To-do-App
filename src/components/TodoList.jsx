@@ -8,8 +8,8 @@ const TodoList = () => {
   const dispatch = useDispatch();
 
   return (
-    <div className='mb-6'>
-      <ul className="bg-white rounded-lg p-5 shadow-lg w-96 mx-auto my-8">
+    <div className='mb-6 pb-3'>
+      <ul className="bg-white rounded-lg p-5 shadow-lg w-96 mx-auto my-8 pb-3">
         {tasks.map((task, index) => (
           <li 
             key={index} 
